@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 15:32:37 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/22 16:56:10 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/11 22:35:55 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,16 +24,3 @@ char	*ft_strchr(const char *str, int a)
 		return ((char *)str);
 	return (0);
 }
-
-// int main(void)
-// {
-//     char a;
-//     a = 'l';
-//     char *str = "hello\0\0bye";
-// 	printf("%s\n", ft_strchr(str, a));
-// 	printf("%s\n", strchr(str,a));
-// 	printf("%d\n", 'e' + 256);
-//     printf("%s\n", ft_strchr("teste", 'e' + 256));
-// 	printf("%s", strchr("teste", 'e' + 256));
-//     return(0);
-// }

@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/04 20:34:11 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/16 22:28:39 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/13 20:30:08 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	dst[j] = '\0';
 	return (ft_strlen(src));
 }
-
-// int main(void)
-// {
-// 	char str[10];
-// 	char str2[10];
-// 	printf("%lu\n", ft_strlcpy(str, "Hell334o", 4));
-// 	printf("%lu\n", strlcpy(str2, "Hell334o", 4));
-// }

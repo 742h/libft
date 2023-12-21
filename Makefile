@@ -6,7 +6,7 @@
 #    By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/11/06 15:38:20 by hassaleh          #+#    #+#              #
-#    Updated: 2023/12/09 20:12:41 by hassaleh         ###   ########.fr        #
+#    Updated: 2023/12/14 01:52:49 by hassaleh         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -43,7 +43,7 @@ $(NAME): $(OBJS) $(OBJS_B)
 all: $(NAME)
 
 bonus : $(OBJS_B)
-	$(AR) $(NAME) $(OBJS_B)
+	$(AR) $(NAME) $^
 
 clean:
 	$(RM) $(OBJS) $(OBJS_B)

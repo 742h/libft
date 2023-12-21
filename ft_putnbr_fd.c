@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 14:59:33 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/30 16:17:52 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/10 21:57:51 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -35,8 +35,3 @@ void	ft_putnbr_fd(int n, int fd)
 		ft_putnbr_fd (n / 10, fd);
 	ft_putnbr_fd (n % 10, fd);
 }
-
-// int main()
-// {
-// 	ft_putnbr_fd(-4545, 1);
-// }

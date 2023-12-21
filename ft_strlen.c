@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 10:17:33 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/12 18:31:06 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/10 23:30:52 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,10 +23,3 @@ size_t	ft_strlen(const char *str)
 	}
 	return ((size_t)i);
 }
-
-// #include<stdio.h>
-// int main()
-// {
-// 	const char string[] = "Hello";
-// 	printf("%zu",ft_strlen(string));
-// }

@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/30 14:37:26 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/30 16:16:14 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/10 21:57:06 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,9 +24,3 @@ void	ft_putendl_fd(char *s, int fd)
 	}
 	write (fd, "\n", 1);
 }
-
-// int main()
-// {
-// 	char	l[] = "";
-// 	ft_putendl_fd(l, 1);
-// }

@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/20 17:33:55 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/22 21:08:42 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/13 17:08:54 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -40,12 +40,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	str[k] = '\0';
 	return (str);
 }
-
-// int main()
-// {
-// 	char a[] = "Hello World Hello";
-// 	char b[] = "Hewo";
-// 	char *result = ft_strtrim(a, b);
-// 	printf ("%s", result);
-// 	free (result);
-// }

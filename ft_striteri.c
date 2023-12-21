@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/28 23:01:36 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/30 16:23:31 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/10 22:36:10 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,18 +23,3 @@ void	ft_striteri(char *s, void (*f)(unsigned int, char*))
 		i++;
 	}
 }
-
-// void myFunction(unsigned int i, char *c)
-// {
-// 	if (*c >= 'a' && *c <= 'z')
-// 	{
-// 		*c = *c - 32;
-// 	}
-// }
-
-// int main()
-// {
-// 	char	l[] = "Hello";
-// 	ft_striteri(l, myFunction);
-// 	printf ("%s", l);
-// }

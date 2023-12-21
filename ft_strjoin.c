@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 20:39:52 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/12/02 14:41:20 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/21 16:02:31 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,8 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	int				k;
 	char			*str;
 
+	if (!s1 || !s2)
+		return (NULL);
 	a1 = (unsigned char *)s1;
 	a2 = (unsigned char *)s2;
 	k = 0;
@@ -36,11 +38,4 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	return (str);
 }
 
-// int main()
-// {
-// 	char	l[] = "Hello ";
-// 	char	j[] = "World!";
-// 	char *result = ft_strjoin(l,j);
-// 	printf ("%s", result);
-// 	free(result);
-// }
+//function protected if a parameter is NULL in line 23 for git hub repository...

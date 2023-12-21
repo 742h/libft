@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/22 21:09:59 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/12/03 20:34:50 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/13 22:39:10 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,21 +104,3 @@ char	**ft_split(char const *s, char c)
 	make_word(str, s, c, words);
 	return (str);
 }
-
-// int main() {
-//     const char *input_string = "Hellodsadsad,World,How,Are,You";
-//     char delimiter = ',';
-
-//     char **result = ft_split(input_string, delimiter);
-
-//     for (int i = 0; result[i]; i++) {
-//         printf("{%s}\n", result[i]);
-//     }
-
-//     for (int i = 0; result[i] != NULL; i++) {
-//         free(result[i]);
-//     }
-//     free(result);
-
-//     return 0;
-// }

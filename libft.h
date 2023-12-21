@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 21:14:08 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/12/09 20:12:32 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/14 00:58:12 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,15 +14,16 @@
 # define LIBFT_H
 
 # include <string.h>
-# include <stdio.h>
 # include <stdlib.h>
 # include <unistd.h>
+# include <limits.h>
 
 typedef struct s_list
 {
 	void			*content;
 	struct s_list	*next;
 }t_list;
+
 int		ft_atoi(const char *str);
 int		ft_isalnum(int c);
 int		ft_isalpha(int c);

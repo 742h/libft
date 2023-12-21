@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/31 20:00:13 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/09 19:13:33 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/11 22:36:05 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,11 +25,3 @@ char	*ft_strrchr(const char *str, int c)
 	}
 	return (0);
 }
-
-// int main(void)
-// {
-//     char *str = "Lmao";
-//     char b = 'a';
-//     printf("%s", ft_strrchr(str, b));
-//     return(0);
-// }

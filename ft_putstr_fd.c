@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/29 20:30:51 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/11/30 16:20:06 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/10 21:58:32 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,9 +23,3 @@ void	ft_putstr_fd(char *s, int fd)
 		i++;
 	}
 }
-
-// int main()
-// {
-// 	char	l[] = "Hello";
-// 	ft_putstr_fd(l, 2);
-// }

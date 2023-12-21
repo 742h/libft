@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/09 18:18:30 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/12/10 16:25:28 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/12 23:28:59 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,9 +25,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-// int main()
-// {
-// 	char l[] = "lHelloooo";
-// 	int	a = 'l';
-// 	printf ("%s", ft_memchr(l, a, 1));
-// }

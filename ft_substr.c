@@ -6,7 +6,7 @@
 /*   By: hassaleh <hassaleh@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/11/19 16:13:44 by hassaleh          #+#    #+#             */
-/*   Updated: 2023/12/02 15:28:58 by hassaleh         ###   ########.fr       */
+/*   Updated: 2023/12/13 20:25:44 by hassaleh         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -38,12 +38,3 @@ char	*ft_substr(char const *s, unsigned int start, size_t len)
 	k[e] = '\0';
 	return (k);
 }
-
-// int main()
-// {
-// 	// char l[] = "Hellooooo";
-// 	// printf ("%s\n", ft_substr(l, 6, 4));
-// 	char *l = ft_substr("holannbn", 5, 10);
-// 	printf("%s", l);
-// }
-// "hello world" 3 5
